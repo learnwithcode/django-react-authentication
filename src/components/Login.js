@@ -12,9 +12,9 @@ class Login extends React.Component {
     onFormSubmit = (event) => {
         event.preventDefault();
         this.props.onAuth(this.state.username, this.state.password)
-        if(this.props.isAuthenticated) {
-            this.props.history.push("/profile/");
-        }
+        // if(this.props.isAuthenticated) {
+        //     this.props.history.push("/profile/");
+        // }
         
     }
 

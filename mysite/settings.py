@@ -25,7 +25,7 @@ SECRET_KEY = 'bbikhfarb3v00y6pkrwn5*ts$=b*)blcy+l#&(s!z@e6&c7g7g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['react-dj.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['react-dj.herokuapp.com', '127.0.0.1', '35.184.239.61']
 
 
 # Application definition
@@ -150,6 +150,9 @@ REST_FRAMEWORK = {
 }
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
+    'https://learnwithcode.github.io/react-dj/',
+    'https://learnwithcode.github.io/'
+
 )
 
 CSRF_COOKIE_NAME = "csrftoken"
