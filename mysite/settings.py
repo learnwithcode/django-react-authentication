@@ -151,7 +151,7 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
     'https://learnwithcode.github.io/react-dj/',
-    'https://learnwithcode.github.io/'
+
 
 )
 
